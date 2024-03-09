@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background-color: #32003f;
+    width: 100%;
+    height: 85px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #833455ad;
+    position: relative;
+}
+
+.topnav #mylinks{
+    display: none;
+}
+
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon{
+    background: #32003f;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.topnav a:hover{
+    background-color: 32003f;
+    color: rebeccapurple;
+}
+
+.active{
+    background-color: #32003f;
+    color: rgb(145, 44, 94);
+    width: 100%;
+    height: 85px;
+    
+    
+}
+
+.logo{
+    width: 05%;
+    
+    
+}
+
+a{
+    font-family: sans-serif, poppins;
+    
+}
+
+.main1{
+    background-color: rgb(13, 13, 14);
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    text-align: center;
+    
+    
+}
+
+/*
+
+.titnt1{
+    font-family: sans-serif;
+    background-color: #290c20;
+    width: 100%;
+    height: 950px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 40px;
+    margin-top: 150px;
+}
+
+.foto2{
+    display: flex;
+    flex-wrap: rap;
+    flex-direction: row;
+    
+}
+*/
+
+.foto2{
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+}
+
+.titnt1{
+    font-family: sans-serif;
+    color: white;
+}
+
+.filho2{
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.filho3{
+    color: white;
+    font-size: larger;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: normal;
+    width: 80%;
+    
+}
