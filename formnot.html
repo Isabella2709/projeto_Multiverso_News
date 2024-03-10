@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Multiverso News</title>
+  </head>
+  <body>
+    <header class="head">
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="topnav">
+          <a href="index.html" class="active"><img src="Multiverso-removebg-preview.png" class="logo"></a>
+         <div id="myLinks">
+          <a href="index.html">Pagina inicial</a>
+          <a href="noticia1.html">Novas noticias</a>
+          <a href="noticia2.html">Noticias urgentes</a>
+          <a href="formnot.html">Nos envie sua noticia</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+    </header>
+
+    <script>
+        function myFunction(){
+          var x = document.getElementById("myLinks");
+          if(x.style.display=="block"){
+            x.style.display = "none";
+          }else{
+              x.style.display = "block"
+            }
+          }
+        
+       </script> 
+      </body>
+      </html>

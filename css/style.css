@@ -53,7 +53,8 @@
 
 .logo{
     width: 05%;
-    
+    position:absolute;
+    background-color: #32003f;
     
 }
 
@@ -125,5 +126,66 @@ a{
     margin-top: 30px;
     line-height: normal;
     width: 80%;
+    font-family: sans-serif;
     
 }
+
+.secfoot{
+    background-color: #32003f;
+    width: 100%;
+    height: 80px;
+}
+
+.cont1{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.afot{
+    text-decoration: none;
+    color: white;
+}
+
+.contpag2{
+    background-color: rgb(13, 13, 14);
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.contpag2 .bebepag24{
+    color: white;
+    font-size: larger;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: normal;
+    width: 80%;
+}
+
+.contpag2 .bebepag22{
+    margin-top: 30px;
+}
+
+.contpag2 .bebepag23{
+    margin-top: 60px;
+}
+
+.contpag2 .bebepag24{
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+
+
+
